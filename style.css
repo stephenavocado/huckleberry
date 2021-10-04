@@ -11,20 +11,9 @@ body {
 }
 
 /* Add styles here! */
-strong {
-  color: hsl(160deg, 100%, 30%);
-}
 
-.indented-heading {
-  background-color: hsl(45deg, 100%, 50%);
-  width: fit-content;
-  padding: 16px 16px;
-  border-bottom: .5rem hsl(45deg, 100%, 40%) solid;
-}
-
-.intro-chunk {
-  max-width: 50%;
-  padding-left: 16px;
+.card{
+  border-bottom: .5rem hsl(0deg, 0%, 40%) solid
 }
 
 footer {
@@ -37,4 +26,24 @@ footer {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 16px 16px;
+  border-bottom: .5rem hsl(45deg, 100%, 40%) solid;
+}
+
+.intro-chunk {
+  padding-left: 16px;
+  border-bottom: .5rem hsl(0deg, 0%, 40%) solid;
+}
+
+.max-width-wrapper {
+  border-bottom: 4rem hsl(0deg, 0%, 60%) solid
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
 }
