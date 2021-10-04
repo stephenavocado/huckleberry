@@ -16,18 +16,6 @@ body {
   border-bottom: .5rem hsl(0deg, 0%, 40%) solid
 }
 
-footer {
-  border: solid hotpink;
-  padding: 8px;
-  margin-top: auto;
-}
-
-.footer-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
 .indented-heading {
   background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
@@ -36,12 +24,22 @@ footer {
 }
 
 .intro-chunk {
-  padding-left: 16px;
   border-bottom: .5rem hsl(0deg, 0%, 40%) solid;
+}
+
+.intro-chunk p {
+  max-width: 45%;
+
 }
 
 .max-width-wrapper {
   border-bottom: 4rem hsl(0deg, 0%, 60%) solid
+}
+
+p,
+h1 {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 strong {
