@@ -25,17 +25,19 @@ body {
 
 .intro-chunk {
   border-bottom: .5rem hsl(0deg, 0%, 40%) solid;
-  padding-top: 96px;
+  padding-top: 64px;
   padding-bottom: 8px;
 }
 
 .intro-chunk p {
-  max-width: 45%;
+  min-width: 50%;
+  max-width: 65%;
   padding-top: 8px;
 }
 
 .max-width-wrapper {
-  border-bottom: 4rem hsl(0deg, 0%, 60%) solid
+  border-bottom: 4rem hsl(0deg, 0%, 60%) solid;
+  margin-bottom: -16px;
 }
 
 p,
