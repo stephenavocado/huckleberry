@@ -7,6 +7,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
@@ -18,5 +19,22 @@ strong {
   background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
   padding: 16px 16px;
+  border-bottom: .5rem hsl(45deg, 100%, 40%) solid;
+}
 
+.intro-chunk {
+  max-width: 50%;
+  padding-left: 16px;
+}
+
+footer {
+  border: solid hotpink;
+  padding: 8px;
+  margin-top: auto;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
