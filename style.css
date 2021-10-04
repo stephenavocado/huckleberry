@@ -13,7 +13,12 @@ body {
 /* Add styles here! */
 
 .card{
-  border-bottom: .5rem hsl(0deg, 0%, 40%) solid
+  border-bottom: .5rem hsl(0deg, 0%, 40%) solid;
+  margin-left: 128px;
+  margin-right: 128px;
+  padding-top: 4px; 
+  width: 50%;
+  background-color: white;
 }
 
 .indented-heading {
@@ -21,6 +26,7 @@ body {
   width: fit-content;
   padding: 16px 16px;
   border-bottom: .5rem hsl(45deg, 100%, 40%) solid;
+  margin-left: -16px;
 }
 
 .intro-chunk {
@@ -35,8 +41,14 @@ body {
   padding-top: 8px;
 }
 
+main{
+  background-color: hsl(0deg, 0%, 60%);
+  min-height: 100%;
+  padding-top: 64px;
+  border-top: .5rem hsl(0deg, 0%, 40%) solid;
+}
+
 .max-width-wrapper {
-  border-bottom: 4rem hsl(0deg, 0%, 60%) solid;
   margin-bottom: -16px;
 }
 
